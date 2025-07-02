@@ -1,4 +1,4 @@
 name,sample
-SRR536238,/data/groups/cmb/katleen.depreter/Projects/DNAmBenchmark/test_dataset/covs/SRR536238_trimmed_bismark_bt2.deduplicated.bismark.cov.gz_chr1_100K.cov.gz
-SRR620008,
-SRR641695,
+SRR536238,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/covs/SRR536238_trimmed_bismark_bt2.deduplicated.bismark.cov.gz_chr1_100K.cov.gz
+SRR620008,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/covs/SRR620008_trimmed_bismark_bt2.deduplicated.bismark.cov.gz_chr1_100K.cov.gz
+SRR641695,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/covs/SRR641695_trimmed_bismark_bt2.deduplicated.bismark.cov.gz_chr1_100K.cov.gz

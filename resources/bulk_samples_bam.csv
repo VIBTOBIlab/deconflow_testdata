@@ -1,0 +1,4 @@
+name,bam,bai
+SRR536238,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/bams/SRR536238_trimmed_bismark_bt2.deduplicated.chr1_100K.bam,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/bams/SRR536238_trimmed_bismark_bt2.deduplicated.chr1_100K.bam.bai
+SRR620008,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/bams/SRR620008_trimmed_bismark_bt2.deduplicated.chr1_100K.bam,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/bams/SRR620008_trimmed_bismark_bt2.deduplicated.chr1_100K.bam.bai
+SRR641695,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/bams/SRR641695_trimmed_bismark_bt2.deduplicated.chr1_100K.bam,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/bams/SRR641695_trimmed_bismark_bt2.deduplicated.chr1_100K.bam.bai
