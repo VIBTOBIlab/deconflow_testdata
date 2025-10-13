@@ -1,9 +1,9 @@
 name,group
-SRR1045638_trimmed_bismark_bt2.deduplicated.chr1_100K,lung
-SRR1045641_trimmed_bismark_bt2.deduplicated.chr1_100K,lung
-SRR536237_trimmed_bismark_bt2.deduplicated.chr1_100K,lung
-SRR1045707_trimmed_bismark_bt2.deduplicated.chr1_100K,pancreas
-SRR620007_trimmed_bismark_bt2.deduplicated.chr1_100K,pancreas
-SRR536234_trimmed_bismark_bt2.deduplicated.chr1_100K,colon
-SRR536235_trimmed_bismark_bt2.deduplicated.chr1_100K,colon
-SRR641696_trimmed_bismark_bt2.deduplicated.chr1_100K,colon
+SRR1045638_chr1_1M,lung
+SRR1045641_chr1_1M,lung
+SRR536237_chr1_1M,lung
+SRR1045707_chr1_1M,pancreas
+SRR620007_chr1_1M,pancreas
+SRR536234_chr1_1M,colon
+SRR536235_chr1_1M,colon
+SRR641696_chr1_1M,colon
