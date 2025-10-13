@@ -5,7 +5,6 @@ In this repository you can find some toy data that can be used to test the pipel
 ```
 SRR1045638
 SRR536237
-SRR1045706
 SRR620007
 SRR536234
 SRR641696
@@ -21,10 +20,10 @@ Then, the raw fastq files were preprocessed using the [nf-core/methylseq](https:
 
 ```
 # bam
-samtools view -b <coordinated_sorted_bam> "chr1:1-100000" > <output_bam>
+samtools view -b <coordinated_sorted_bam> "chr1:1-1000000" > <output_bam>
 
 #cov
-zcat <cov_file> | awk '($1 == "chr1" || $1 == "1") && $2 <= 100000' | gzip > <output_cov>
+zcat <cov_file> | awk '($1 == "chr1" || $1 == "1") && $2 <= 1000000' | gzip > <output_cov>
 ```
 
 Finally, a part of these samples are used to build the reference atlas and the remaining samples are used as bulk samples to be deconvolved:
@@ -35,7 +34,6 @@ SRX388734,Lung cells,STL001,SRR1045638,atlas
 SRX388734,Lung cells,STL001,SRR1045641,atlas
 SRX175350,Lung cells,STL002,SRR536237,atlas
 SRX175350,Lung cells,STL002,SRR536238,bulk
-SRX388743,Pancreas cells,STL002,SRR1045708,atlas
 SRX388743,Pancreas cells,STL002,SRR1045707,atlas
 SRX175354,Pancreas cells,STL003,SRR620007,atlas
 SRX175354,Pancreas cells,STL003,SRR620008,bulk

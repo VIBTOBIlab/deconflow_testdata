@@ -1,4 +1,4 @@
 name,sample
-SRR536238,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/covs/SRR536238_trimmed_bismark_bt2.deduplicated.bismark.cov.gz_chr1_100K.cov.gz
-SRR620008,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/covs/SRR620008_trimmed_bismark_bt2.deduplicated.bismark.cov.gz_chr1_100K.cov.gz
-SRR641695,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/covs/SRR641695_trimmed_bismark_bt2.deduplicated.bismark.cov.gz_chr1_100K.cov.gz
+SRR536238,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/covs/SRR1045638_1M.cov.gz
+SRR620008,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/covs/SRR620008_1M.cov.gz
+SRR641695,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/covs/SRR641695_1M.cov.gz
