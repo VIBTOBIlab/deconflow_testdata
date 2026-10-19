@@ -1,0 +1,4 @@
+name,sample
+SRR536238,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/bedGraphs/SRR1045638.sorted_CpG_1M.bedGraph.gz
+SRR620008,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/bedGraphs/SRR620008.sorted_CpG_1M.bedGraph.gz
+SRR641695,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/bedGraphs/SRR641695.sorted_CpG_1M.bedGraph.gz

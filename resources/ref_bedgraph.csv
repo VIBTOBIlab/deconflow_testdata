@@ -1,0 +1,8 @@
+name,type,file
+SRR1045638,lung,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/bedGraphs/SRR536238.sorted_CpG_1M.bedGraph.gz
+SRR536237,lung,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/bedGraphs/SRR536237.sorted_CpG_1M.bedGraph.gz
+SRR1045707,pancreas,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/bedGraphs/SRR1045707.sorted_CpG_1M.bedGraph.gz
+SRR620007,pancreas,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/bedGraphs/SRR620007.sorted_CpG_1M.bedGraph.gz
+SRR536234,colon,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/bedGraphs/SRR536234.sorted_CpG_1M.bedGraph.gz
+SRR536235,colon,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/bedGraphs/SRR536235.sorted_CpG_1M.bedGraph.gz
+SRR641696,colon,https://github.com/VIBTOBIlab/deconflow_testdata/raw/main/bedGraphs/SRR641696.sorted_CpG_1M.bedGraph.gz
