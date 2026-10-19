@@ -16,7 +16,7 @@ SRR536235
 SRR641695
 ```
 
-Then, the raw fastq files were preprocessed using the [nf-core/methylseq](https://nf-co.re/methylseq/2.6.0/) pipeline v2.6.0. Finally, the bam and cov files produced by the pipeline were subsampled to retain only the first 100K bp of chr1 using respectively [SAMtools](https://www.htslib.org/) v1.18 and awk:
+Then, the raw fastq files were preprocessed using the [nf-core/methylseq](https://nf-co.re/methylseq/2.6.0/) pipeline v2.6.0 using Bismark (to extract the .cov.gz files) or bwameth (to extract the .bedGraph files). Finally, the bam and cov files produced by the pipeline were subsampled to retain only the first 100K bp of chr1 using respectively [SAMtools](https://www.htslib.org/) v1.18 and awk:
 
 ```
 # bam
@@ -24,6 +24,9 @@ samtools view -b <coordinated_sorted_bam> "chr1:1-1000000" > <output_bam>
 
 #cov
 zcat <cov_file> | awk '($1 == "chr1" || $1 == "1") && $2 <= 1000000' | gzip > <output_cov>
+
+#cov
+awk 'NR == 1 || (($1 == "chr1" || $1 == "1") && $2 <= 1000000)' <bedGraph_file> | gzip > "output_bedGraph"
 ```
 
 Finally, a part of these samples are used to build the reference atlas and the remaining samples are used as bulk samples to be deconvolved:
